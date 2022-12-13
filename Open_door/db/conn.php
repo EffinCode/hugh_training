@@ -19,7 +19,7 @@
 
 
 
-$conn = mysqli_connect("remotemysql.com", "PDfeYRdCw9", "PL6gmPfzf9", "PL6gmPfzf9");
+$conn = mysqli_connect("remotemysql.com", "PL6gmPfzf9", "PDfeYRdCw9", "PL6gmPfzf9");
 
 if(!$conn)  {
     die("Connection failed: ".mysqli_connect_error());
