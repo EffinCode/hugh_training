@@ -22,7 +22,7 @@ if(isset($_SESSION['email'])) {
     }
 }
 else {
-    header("Location: http://localhost/Open_door/login.php");
+    header("Location: http://localhost/Open_door/index.html");
 }
 
 //Acutual Questions file
